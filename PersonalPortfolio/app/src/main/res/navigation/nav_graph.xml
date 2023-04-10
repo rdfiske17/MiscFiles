@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.personalportfolio.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_biographyFragment"
+            app:destination="@id/biographyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_projectListFragment"
+            app:destination="@id/projectListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biographyFragment"
+        android:name="com.example.personalportfolio.BiographyFragment"
+        android:label="fragment_biography"
+        tools:layout="@layout/fragment_biography" />
+    <fragment
+        android:id="@+id/projectListFragment"
+        android:name="com.example.personalportfolio.ProjectListFragment"
+        android:label="fragment_project_list"
+        tools:layout="@layout/fragment_project_list" >
+        <action
+            android:id="@+id/action_projectListFragment_to_projectDetailsFragment"
+            app:destination="@id/projectDetailsFragment" />
+        <argument
+            android:name="ProjectNumber"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/projectDetailsFragment"
+        android:name="com.example.personalportfolio.ProjectDetailsFragment"
+        android:label="fragment_project_details"
+        tools:layout="@layout/fragment_project_details" >
+        <argument
+            android:name="ProjectNumber"
+            app:argType="integer" />
+    </fragment>
+</navigation>

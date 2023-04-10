@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">PersonalPortfolio</string>
+    <string name="home_title_en">Riley\'s Portfolio Project</string>
+    <string name="go_to_bio_en">Biography</string>
+    <string name="go_to_projects_en">Projects</string>
+    <string name="go_to_contact_en">Contact</string>
+
+    <string name="bio_name">Riley Fiske</string>
+    <string name="bio_aboutme_heading_en">About Me</string>
+    <string name="bio_aboutme_text_en">\t\t\tI am curious about Mathematics as well as Computer and Data Sciences, and embrace the struggle of hard questions as a junior at Concordia College. I utilize a technical background to solve problems in unique ways in all aspects of my life. \n\n\t\t\tI also have an artistic side, pursuing education in language skills and musical competence. I have taken German courses and explore various Germanic languages in my free time. I am an avid musician on and off of Concordia\'s campus, playing Tenor and Bass Trombone in The Concordia Band, Concordia Jazz Ensemble I, and The Concordia Orchestra, as well as subbing for Big Bands in the Fargo/Moorhead area.\n\n\t\t\tI believe that a crossroads between a technical, logical, and artistic mind sets me apart and strengthens my ability to tackle tough challenges.</string>
+    <string name="bio_experiences_heading_en">Experiences</string>
+    <string name="bio_experiences_text_en">-Engineering Summer Intern - CRM Clinical Biostatistics
+ Medtronic
+
+-Student Technician - ITS Solution Center
+ Concordia College
+
+-Research Assistant - DAAD RISE Germany Scholar 2023
+ Ludwig-Maximilians Univeristät: Munich, Germany
+</string>
+    <string name="bio_hobbies_heading_en">Hobbies and Interests</string>
+    <string name="bio_hobbies_text_en">\t\t\tIn my free time, I like to study and make music, read books, play games, watch movies and television, travel, and study languages. I have been a musician my whole life; I started playing piano in fourth grade and began trombone in sixth grade which turned into one of the biggest parts of my life. I am an avid Star Wars nerd and will digest every bit of Star Wars content I can get my hands on, which is most of the books I read, games I play, and shows and movies that I watch. I love to travel and learn new languages; I have been to Europe twice with an extended trip planned for Summer 2023. I have elementary proficiency in German and have studied the fundamentals of Norwegian.</string>
+
+    <string name="plist_heading_en">Project List</string>
+    <string name="plist_p1_name_en">Pacman</string>
+    <string name="plist_p1_desc_en">From CSC-125, recreating the iconic game of Pacman in Java</string>
+    <string name="plist_p1_link_en">More Details</string>
+    <string name="plist_p2_name_en">Battle Bunnies</string>
+    <string name="plist_p2_desc_en">From CSC-225, Turn-Based RPG game made in Java</string>
+    <string name="plist_p2_link_en">More Details</string>
+    <string name="plist_p3_name_en">Currency Prediction</string>
+    <string name="plist_p3_desc_en">From DATA-318, RMarkdown File that used data from the European Central Bank to predict foreign exchange rates from 1999-Present</string>
+    <string name="plist_p3_link_en">More Details</string>
+    <string name="plist_p4_name_en">Breaking Belly</string>
+    <string name="plist_p4_desc_en">From CSC-310, eCommerce Website themed after Breaking Bad made utilizing HTML, CSS, JavaScript, PHP, and MySQL</string>
+    <string name="plist_p4_link_en">More Details</string>
+
+    <string name="pdetails_pname_en">Project Name</string>
+    <string name="pdetails_date_heading_en"><u>Project Date</u></string>
+    <string name="pdetails_date_text_en">Project Date</string>
+    <string name="pdetails_desc_heading_en"><u>Project Description</u></string>
+    <string name="pdetails_desc_text_en">Project Description</string>
+    <string name="pdetails_link_text_en">Link to Project (if relevant)</string>
+
+    <string name="contact_heading_en">Contact Riley</string>
+    <string name="contact_instructions_en">Please provide your:</string>
+    <string name="contact_hint_name_en">Name</string>
+    <string name="contact_hint_email_en">Email Address</string>
+    <string name="contact_hint_message_en">Message</string>
+    <string name="contact_submit_en">Submit</string>
+
+    <string name="options_heading_en">Options</string>
+    <string name="options_language_select_en">Language:</string>
+    <string name="options_darkmode_select_en">Dark Mode:</string>
+    <string-array name="options_language_options">
+        <item>English</item>
+        <item>Deutsch</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

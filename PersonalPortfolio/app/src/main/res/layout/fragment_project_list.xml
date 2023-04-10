@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectListFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/projectlist_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/plist_heading_en"
+            android:textAlignment="center"/>
+
+
+        <TableLayout
+            android:id="@+id/projectlist_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first row of the table layout-->
+            <TableRow
+
+                android:id="@+id/project1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <!-- first element of the row-->
+                <TextView
+
+                    android:id="@+id/project1_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p1_name_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <TextView
+
+                    android:id="@+id/project1_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p1_desc_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <Button
+
+                    android:id="@+id/project1_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p1_link_en"
+                    android:textColor="#000"
+                    android:textSize="12dp"/>
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/project2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <!-- first element of the row-->
+                <TextView
+
+                    android:id="@+id/project2_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p2_name_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <TextView
+
+                    android:id="@+id/project2_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p2_desc_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <Button
+
+                    android:id="@+id/project2_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p2_link_en"
+                    android:textColor="#000"
+                    android:textSize="12dp"/>
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/project3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+
+                <!-- first element of the row-->
+                <TextView
+
+                    android:id="@+id/project3_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p3_name_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <TextView
+
+                    android:id="@+id/project3_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p3_desc_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <Button
+
+                    android:id="@+id/project3_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p3_link_en"
+                    android:textColor="#000"
+                    android:textSize="12dp"/>
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/project4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+
+                <!-- first element of the row-->
+                <TextView
+
+                    android:id="@+id/project4_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p4_name_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <TextView
+
+                    android:id="@+id/project4_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p4_desc_en"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <Button
+
+                    android:id="@+id/project4_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#b0b0b0"
+                    android:padding="8dip"
+                    android:layout_weight="1"
+                    android:text="@string/plist_p4_link_en"
+                    android:textColor="#000"
+                    android:textSize="12dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

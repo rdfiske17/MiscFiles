@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiographyFragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/bio_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/bio_name"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/bio_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            tools:srcCompat="@drawable/riley" />
+
+        <TextView
+            android:id="@+id/bio_aboutme_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_aboutme_heading_en"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/bio_aboutme_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_aboutme_text_en"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/bio_experience_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_experiences_heading_en"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/bio_experience_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_experiences_text_en"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/bio_hobbies_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_hobbies_heading_en"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/bio_hobbies_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_hobbies_text_en"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/LinkedIn_button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/linkedin" /> <!--https://stackoverflow.com/questions/15116393/fit-image-in-imagebutton-in-android-->
+
+            <ImageView
+                android:id="@+id/Github_button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/github" />
+
+            <ImageView
+                android:id="@+id/Email_button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/email" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
